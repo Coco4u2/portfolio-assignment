@@ -176,13 +176,17 @@ No Flexbox was used in the development of the website. Responsive layouts were c
 
 ## Testing
 
-The website was tested using the following tools:
+The website was tested to ensure that the HTML, CSS, links, spelling, and accessibility meet the project requirements.
 
-- W3C HTML Validator
-- W3C CSS Validator
-- W3C Link Checker
-- Spell checking
-- WAVE Web Accessibility Evaluation Tool
+The following testing tools and methods were used:
+
+- W3C HTML Validator – No errors or warnings
+- W3C CSS Validator – No errors
+- W3C Link Checker – No broken links
+- Spell Check – No spelling errors
+- WAVE Web Accessibility Evaluation Tool – No accessibility errors
+
+All  pages were tested to ensure that the website functions correctly and follows web development and accessibility standards.
 
 ---
 
