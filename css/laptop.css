@@ -1,0 +1,55 @@
+/*-----LAPTOP VIEWPORT: Styles for laptop and larger screens-----*/
+
+@media screen and (min-width: 1024px) {
+
+    /*-----HEADER-----*/
+    header {
+        padding: 30px 20px;
+    }
+
+    header h1 {
+        font-size: 2.3rem;
+    }
+
+    /*-----NAVIGATION-----*/
+    nav a {
+        padding: 10px 20px;
+        margin: 5px;
+    }
+
+    /*-----MAIN CONTENT-----*/
+    main {
+        width: 80%;
+        max-width: 1000px;
+    }
+
+    /*-----PROJECT ARTICLES-----*/
+    article {
+        padding: 25px;
+    }
+
+    /*-----ABOUT PAGE IMAGE-----*/
+    img {
+        max-width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /*-----ABOUT PAGE VIDEO-----*/
+    video {
+        max-width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /*-----CONTACT FORM-----*/
+    form {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    /*-----FOOTER-----*/
+    footer {
+        padding: 25px;
+    }
+}
