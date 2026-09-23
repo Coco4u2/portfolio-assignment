@@ -1,0 +1,139 @@
+/* -----GENERAL PAGE STYLING;Applies basic styles to the entire website----- */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #222222;
+    line-height: 1.6;
+}
+
+
+/* ------ HEADER;Styles the top section of each page----------- */
+
+header {
+    background: linear-gradient(135deg, #1d3557, #457b9d);
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+header h1 {
+    margin: 0 0 15px 0;
+}
+
+
+/* ------NAVIGATION;Styles the links used to move between pages----- */
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    margin: 3px;
+}
+
+nav a:hover {
+    background-color: #f1faee;
+    color: #1d3557;
+}
+
+
+/* ------MAIN CONTENT;Controls the width and spacing of page content------- */
+
+main {
+    width: 85%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #1d3557;
+}
+
+h3 {
+    color: #457b9d;
+}
+
+
+/* -----PROJECT ARTICLES:Creates a card-like appearance for each project--*/
+
+article {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #457b9d;
+}
+
+
+/* -------ABOUT PAGE MEDIA: Controls the profile image and introduction video------ */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* -----CONTACT FORM :Styles labels, inputs, textarea and submit button--- */
+
+form {
+    background-color: white;
+    padding: 25px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: auto;
+    background-color: #1d3557;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #457b9d;
+}
+
+
+/* ----FOOTER;Styles the footer displayed on every page---- */
+
+footer {
+    background-color: #1d3557;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 5px;
+}

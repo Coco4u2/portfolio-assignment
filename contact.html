@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic page information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Me | My Portfolio</title>
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Stylesheets for different screen sizes -->
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/laptop.css">
+</head>
+
+<body>
+
+    <!-- Header containing the website title and navigation -->
+    <header>
+        <h1>My Portfolio</h1>
+
+        <!-- Main navigation -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact Me</a>
+        </nav>
+    </header>
+
+    <!-- Main content of the Contact Me page -->
+    <main>
+
+        <!-- Contact form section -->
+        <section>
+            <h2>Contact Me</h2>
+
+            <p>
+                If you would like to get in touch with me, please complete
+                the form below.
+            </p>
+
+            <!-- Contact form used to collect visitor information -->
+            <form action="#" method="post">
+
+                <!-- Name field -->
+                <label for="name">Name:</label>
+                <input type="text"
+                       id="name"
+                       name="name"
+                       required>
+
+                <!-- Email field -->
+                <label for="email">Email:</label>
+                <input type="email"
+                       id="email"
+                       name="email"
+                       required>
+
+                <!-- Phone number field -->
+                <label for="phone">Cell Number:</label>
+                <input type="tel"
+                       id="phone"
+                       name="phone"
+                       pattern="[0-9]{10}"
+                       placeholder="1234567890"
+                       required>
+
+                <!-- Comments field -->
+                <label for="comments">Comments:</label>
+                <textarea id="comments"
+                          name="comments"
+                          rows="6"
+                          required></textarea>
+
+                <!-- Form submission button -->
+                <input type="submit" value="Submit">
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer containing contact and copyright information -->
+    <footer>
+        <p>Email: nnabuife202@gmail.com</p>
+        <p>&copy; 2026 Jeffery Nnabuife. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
