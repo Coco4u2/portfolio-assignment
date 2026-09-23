@@ -1,0 +1,54 @@
+/*-----TABLET VIEWPORT: Styles for medium-sized screens-----*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /*-----HEADER-----*/
+    header {
+        padding: 25px 15px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    /*-----NAVIGATION-----*/
+    nav a {
+        padding: 10px 15px;
+        margin: 3px;
+    }
+
+    /*-----MAIN CONTENT-----*/
+    main {
+        width: 90%;
+    }
+
+    /*-----PROJECT ARTICLES-----*/
+    article {
+        padding: 18px;
+    }
+
+    /*-----ABOUT PAGE IMAGE-----*/
+    img {
+        max-width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /*-----ABOUT PAGE VIDEO-----*/
+    video {
+        max-width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /*-----CONTACT FORM-----*/
+    form {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    /*-----FOOTER-----*/
+    footer {
+        padding: 20px;
+    }
+}
