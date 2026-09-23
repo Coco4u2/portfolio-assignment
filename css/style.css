@@ -66,9 +66,9 @@ h3 {
 
 
 /* -----PROJECT ARTICLES:Creates a card-like appearance for each project--*/
-
-article {
-    background-color: white;
+/*-----PROJECT HOVER: Highlights a project when the mouse is over it-----*/
+article:hover {
+    background-color: #f1faee;
     padding: 20px;
     margin-bottom: 20px;
     border-left: 5px solid #457b9d;
@@ -124,10 +124,9 @@ input[type="submit"]:hover {
 }
 
 
-/* ----FOOTER;Styles the footer displayed on every page---- */
-
+/*-----FOOTER: Styles the footer displayed on every page-----*/
 footer {
-    background-color: #1d3557;
+    background: linear-gradient(to right, #1d3557, #457b9d);
     color: white;
     text-align: center;
     padding: 20px;
