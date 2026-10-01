@@ -21,7 +21,7 @@ The website uses separate CSS files and media queries to support different scree
 
 ### Mobile
 
-The mobile layout is used for screens up to 767px wide.
+The mobile layout is used for screens up to 480px wide.
 
 ```css
 @media screen and (max-width: 480px)
@@ -31,7 +31,7 @@ This range was selected for smaller devices such as smartphones. On mobile scree
 
 ### Tablet
 
-The tablet layout is used for screens between 768px and 1023px wide.
+The tablet layout is used for screens between 481px and 959px wide.
 
 ```css
 @media screen and (min-width: 481px) and (max-width: 959px)
@@ -41,7 +41,7 @@ This range was selected for medium-sized devices such as tablets. The layout pro
 
 ### Laptop
 
-The laptop layout is used for screens 1024px wide and larger.
+The laptop layout is used for screens 960px wide and larger.
 
 ```css
 @media screen and (min-width: 960px)
@@ -58,7 +58,7 @@ The website uses a blue-based color scheme selected using Adobe Color. The color
 The main colors used are:
 
 - Dark Blue: `#1D2342`
-- Purple: `#4C3E96`
+- Medium Blue: `#4C3E96`
 - Light Cream: `#F1FAEE`
 - Light Gray: `#F4F4F4`
 - Dark Text: `#222222`
@@ -157,12 +157,6 @@ The projects include:
 - Student Performance Data Analysis
 
 Semantic `article` elements are used to separate each project into its own self-contained section.
-
----
-
-## External Sources
-- Phone number pattern in contact.html (pattern="[0-9]{10}"): adapted from MDN Web Docs, "pattern" attribute. Requires a 10-digit number.
-- Color palette: created with Adobe Color (https://color.adobe.com).
 
 ---
 
