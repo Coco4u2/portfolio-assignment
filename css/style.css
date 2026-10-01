@@ -65,15 +65,17 @@ h3 {
 }
 
 
-/* -----PROJECT ARTICLES:Creates a card-like appearance for each project--*/
+/* -----PROJECT ARTICLES:Creates a card like appearance for each project--*/
 /*-----PROJECT HOVER: Highlights a project when the mouse is over it-----*/
-article:hover {
-    background-color: #f1faee;
+article {
     padding: 20px;
     margin-bottom: 20px;
     border-left: 5px solid #4C3E96;
 }
 
+article:hover {
+    background-color: #f1faee;
+}
 
 /* -------ABOUT PAGE MEDIA: Controls the profile image and introduction video------ */
 

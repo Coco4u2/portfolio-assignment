@@ -1,6 +1,6 @@
 /*-----LAPTOP VIEWPORT: Styles for laptop and larger screens-----*/
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 960px) {
 
     /*-----HEADER-----*/
     header {
