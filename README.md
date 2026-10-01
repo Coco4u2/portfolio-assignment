@@ -24,7 +24,7 @@ The website uses separate CSS files and media queries to support different scree
 The mobile layout is used for screens up to 767px wide.
 
 ```css
-@media screen and (max-width: 767px)
+@media screen and (max-width: 480px)
 ```
 
 This range was selected for smaller devices such as smartphones. On mobile screens, the navigation links are displayed vertically and the main content uses more of the available screen width.
@@ -34,7 +34,7 @@ This range was selected for smaller devices such as smartphones. On mobile scree
 The tablet layout is used for screens between 768px and 1023px wide.
 
 ```css
-@media screen and (min-width: 768px) and (max-width: 1023px)
+@media screen and (min-width: 481px) and (max-width: 959px)
 ```
 
 This range was selected for medium-sized devices such as tablets. The layout provides more space than the mobile version while keeping images, videos, forms, and other content appropriately sized.
@@ -44,7 +44,7 @@ This range was selected for medium-sized devices such as tablets. The layout pro
 The laptop layout is used for screens 1024px wide and larger.
 
 ```css
-@media screen and (min-width: 1024px)
+@media screen and (min-width: 960px)
 ```
 
 This range was selected for laptops and larger displays. A maximum width is used for the main content to prevent text and other elements from becoming too wide on large screens.
@@ -57,7 +57,7 @@ The website uses a blue-based color scheme selected using Adobe Color. The color
 
 The main colors used are:
 
-- Dark Blue: `#1D3557`
+- Dark Blue: `#1D2342`
 - Purple: `#4C3E96`
 - Light Cream: `#F1FAEE`
 - Light Gray: `#F4F4F4`
