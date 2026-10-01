@@ -160,6 +160,12 @@ Semantic `article` elements are used to separate each project into its own self-
 
 ---
 
+## External Sources
+- Phone number pattern in contact.html (pattern="[0-9]{10}"): adapted from MDN Web Docs, "pattern" attribute. Requires a 10-digit number.
+- Color palette: created with Adobe Color (https://color.adobe.com).
+
+---
+
 ## Technologies Used
 
 The technologies used to develop this portfolio include:
