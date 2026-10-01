@@ -190,7 +190,7 @@ The following testing tools and methods were used:
 - W3C CSS Validator – No errors
 - W3C Link Checker – No broken links
 - Spell Check – No spelling errors
-- WAVE Web Accessibility Evaluation Tool – No accessibility errors
+- WAVE Web Accessibility Evaluation Tool – No accessibility errors or contrast errors were detected. Any alerts were manually reviewed.
 
 All  pages were tested to ensure that the website functions correctly and follows web development and accessibility standards.
 
