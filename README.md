@@ -192,7 +192,7 @@ The following testing tools and methods were used:
 
 - W3C HTML Validator – No errors or warnings
 - W3C CSS Validator – No errors
-- W3C Link Checker – No broken links
+- W3C Link Checker – No broken links only my mailtolink was falgged since link checker does not test mailtolinks.
 - Spell Check – No spelling errors
 - WAVE Web Accessibility Evaluation Tool – No accessibility errors or contrast errors were detected. Any alerts were manually reviewed.
 
