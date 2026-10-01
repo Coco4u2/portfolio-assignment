@@ -53,7 +53,7 @@ This range was selected for laptops and larger displays. A maximum width is used
 
 ## Color Scheme
 
-The website uses a blue-based color scheme selected using Adobe Color. The colors were chosen to create a professional, clean, and consistent appearance throughout the portfolio.
+The website uses a blue base color scheme selected using Adobe Color. The colors were chosen on how i felt it worked for my portfolio.
 
 The main colors used are:
 
@@ -160,12 +160,22 @@ Semantic `article` elements are used to separate each project into its own self-
 
 ---
 
+## External References
+
+Mozilla Contributors. “box-sizing. border-box” MDN Web Docs:
+Used as a reference for the box-sizing: border-box CSS property to ensure that padding is included within the specified width of form elements.
+Mozilla Contributors. “cursor.” MDN Web Docs:
+Used as a reference for the cursor: changing of cursor to hand for clickable button.
+
+All other HTML and CSS techniques used in this portfolio were based on concepts and examples covered in the INFR3120 course materials.
+
+---
+
 ## Technologies Used
 
-The technologies used to develop this portfolio include:
+Apps used to create the project
 
-- HTML5
-- CSS3
+- Vs code
 - Git
 - GitHub
 - GitHub Pages
