@@ -45,43 +45,57 @@
             </p>
 
             <!-- Contact form used to collect visitor information -->
-            <form action="mailto:nnabuife202@gmail.com" method="post" enctype="text/plain">
+            <form
+                action="mailto:jeffery.nnabuife@ontariotechu.net"
+                method="post"
+                enctype="text/plain"
+                name="form">
 
                 <!-- Name field -->
-                <label for="name">Name:</label>
-                <input type="text"
-                       id="name"
-                       name="name"
-                       required>
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text"
+                           name="name"
+                           size="32"
+                           placeholder="Enter your name"
+                           required>
+                </p>
 
                 <!-- Email field -->
-                <label for="email">Email:</label>
-                <input type="email"
-                       id="email"
-                       name="email"
-                       required>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email"
+                           name="email"
+                           size="32"
+                           placeholder="Enter your email address"
+                           required>
+                </p>
 
-                <!-- Phone number must contain exactly 10 digits from 0-9 -->
-                <label for="phone">Cell Number:</label>
-                <input type="tel"
-                       id="phone"
-                       name="phone"
-                       pattern="[0-9]{10}"
-                       placeholder="1234567890"
-                       title="Please enter a 10-digit phone number"
-                       required>
+                <!-- Cell number field -->
+                <p>
+                    <label for="phone">Cell Number:</label>
+                    <input type="tel"
+                           name="phone"
+                           size="32"
+                           placeholder="Enter your cell number"
+                           pattern="[0-9]{10}"
+                           required>
+                </p>
 
                 <!-- Comments field -->
-                <label for="comments">Comments:</label>
-                <textarea id="comments"
-                          name="comments"
-                          rows="6"
-                          required></textarea>
+                <p>
+                    <label for="comments">Comments:</label>
+                    <br>
+                    <textarea name="comments"
+                              cols="60"
+                              rows="6"></textarea>
+                </p>
 
                 <!-- Form submission button -->
                 <input type="submit" value="Submit">
 
             </form>
+
         </section>
 
     </main>
